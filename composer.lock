@@ -4,7 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
+<<<<<<< HEAD
     "content-hash": "626b9e7ddd47fb7eff9aaa53cce0c9ad",
+=======
+    "content-hash": "589cc0f65c3aaa7d4e9024d545bc1974",
+>>>>>>> 20ad7c550b36590391adfdc7803098ef289f1ab8
     "packages": [
         {
             "name": "brick/math",
@@ -1056,6 +1060,7 @@
         },
         {
             "name": "laravel/framework",
+<<<<<<< HEAD
             "version": "v11.33.2",
             "source": {
                 "type": "git",
@@ -1066,6 +1071,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/framework/zipball/6b9832751cf8eed18b3c73df5071f78f0682aa5d",
                 "reference": "6b9832751cf8eed18b3c73df5071f78f0682aa5d",
+=======
+            "version": "v11.32.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/framework.git",
+                "reference": "bc2aad63f83ee5089be7b21cf29d645ccf31e927"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/bc2aad63f83ee5089be7b21cf29d645ccf31e927",
+                "reference": "bc2aad63f83ee5089be7b21cf29d645ccf31e927",
+>>>>>>> 20ad7c550b36590391adfdc7803098ef289f1ab8
                 "shasum": ""
             },
             "require": {
@@ -1085,7 +1102,11 @@
                 "guzzlehttp/guzzle": "^7.8",
                 "guzzlehttp/uri-template": "^1.0",
                 "laravel/prompts": "^0.1.18|^0.2.0|^0.3.0",
+<<<<<<< HEAD
                 "laravel/serializable-closure": "^1.3|^2.0",
+=======
+                "laravel/serializable-closure": "^1.3",
+>>>>>>> 20ad7c550b36590391adfdc7803098ef289f1ab8
                 "league/commonmark": "^2.2.1",
                 "league/flysystem": "^3.8.0",
                 "monolog/monolog": "^3.0",
@@ -1168,9 +1189,15 @@
                 "league/flysystem-path-prefixing": "^3.3",
                 "league/flysystem-read-only": "^3.3",
                 "league/flysystem-sftp-v3": "^3.0",
+<<<<<<< HEAD
                 "mockery/mockery": "^1.6.10",
                 "nyholm/psr7": "^1.2",
                 "orchestra/testbench-core": "^9.6",
+=======
+                "mockery/mockery": "^1.6",
+                "nyholm/psr7": "^1.2",
+                "orchestra/testbench-core": "^9.5",
+>>>>>>> 20ad7c550b36590391adfdc7803098ef289f1ab8
                 "pda/pheanstalk": "^5.0",
                 "phpstan/phpstan": "^1.11.5",
                 "phpunit/phpunit": "^10.5|^11.0",
@@ -1261,7 +1288,11 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
+<<<<<<< HEAD
             "time": "2024-11-19T22:47:13+00:00"
+=======
+            "time": "2024-11-15T17:04:33+00:00"
+>>>>>>> 20ad7c550b36590391adfdc7803098ef289f1ab8
         },
         {
             "name": "laravel/prompts",
@@ -1324,6 +1355,7 @@
         },
         {
             "name": "laravel/serializable-closure",
+<<<<<<< HEAD
             "version": "v2.0.0",
             "source": {
                 "type": "git",
@@ -1345,11 +1377,38 @@
                 "pestphp/pest": "^2.36",
                 "phpstan/phpstan": "^2.0",
                 "symfony/var-dumper": "^6.2.0|^7.0.0"
+=======
+            "version": "v1.3.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/serializable-closure.git",
+                "reference": "f865a58ea3a0107c336b7045104c75243fa59d96"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/serializable-closure/zipball/f865a58ea3a0107c336b7045104c75243fa59d96",
+                "reference": "f865a58ea3a0107c336b7045104c75243fa59d96",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.3|^8.0"
+            },
+            "require-dev": {
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0",
+                "nesbot/carbon": "^2.61|^3.0",
+                "pestphp/pest": "^1.21.3",
+                "phpstan/phpstan": "^1.8.2",
+                "symfony/var-dumper": "^5.4.11|^6.2.0|^7.0.0"
+>>>>>>> 20ad7c550b36590391adfdc7803098ef289f1ab8
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-master": "2.x-dev"
+=======
+                    "dev-master": "1.x-dev"
+>>>>>>> 20ad7c550b36590391adfdc7803098ef289f1ab8
                 }
             },
             "autoload": {
@@ -1381,7 +1440,11 @@
                 "issues": "https://github.com/laravel/serializable-closure/issues",
                 "source": "https://github.com/laravel/serializable-closure"
             },
+<<<<<<< HEAD
             "time": "2024-11-19T01:38:44+00:00"
+=======
+            "time": "2024-11-11T17:06:04+00:00"
+>>>>>>> 20ad7c550b36590391adfdc7803098ef289f1ab8
         },
         {
             "name": "laravel/tinker",
