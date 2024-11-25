@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
     "$schema": "https://getcomposer.org/schema.json",
     "name": "laravel/laravel",
     "type": "project",
@@ -12,16 +11,6 @@
     "require": {
         "php": "^8.2",
         "laravel/framework": "^11.31",
-=======
-    "name": "laravel/laravel",
-    "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
-    "keywords": ["laravel", "framework"],
-    "license": "MIT",
-    "require": {
-        "php": "^8.2",
-        "laravel/framework": "^11.9",
->>>>>>> 20ad7c550b36590391adfdc7803098ef289f1ab8
         "laravel/tinker": "^2.9"
     },
     "require-dev": {
@@ -61,14 +50,7 @@
             "@php -r \"file_exists('database/database.sqlite') || touch('database/database.sqlite');\"",
             "@php artisan migrate --graceful --ansi"
         ],
-<<<<<<< HEAD
         "dev": "npx concurrently -c \"#93c5fd,#c4b5fd,#fdba74\" \"php artisan serve\" \"php artisan queue:listen --tries=1\" \"npm run dev\" --names='server,queue,vite'"
-=======
-        "dev": [
-            "Composer\\Config::disableProcessTimeout",
-            "npx concurrently -c \"#93c5fd,#c4b5fd,#fb7185,#fdba74\" \"php artisan serve\" \"php artisan queue:listen --tries=1\" \"php artisan pail --timeout=0\" \"npm run dev\" --names=server,queue,logs,vite"
-        ]
->>>>>>> 20ad7c550b36590391adfdc7803098ef289f1ab8
     },
     "extra": {
         "laravel": {
@@ -86,8 +68,4 @@
     },
     "minimum-stability": "stable",
     "prefer-stable": true
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 20ad7c550b36590391adfdc7803098ef289f1ab8
